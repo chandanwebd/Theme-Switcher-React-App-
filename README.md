@@ -1,46 +1,121 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Bzayna Themed React App
 
-## Available Scripts
+A responsive, multi-theme React + TypeScript application that demonstrates a modern front-end architecture with theme persistence, context-based state management, API integration, and subtle UI animations.
 
-In the project directory, you can run:
+## 🌟 Features
 
-### `npm start`
+- 🌞 **Three Unique Themes**:
+  - **Theme 1 (Default)**: Minimalist light layout with sans-serif fonts.
+  - **Theme 2**: Dark mode with sidebar layout and bold serif fonts.
+  - **Theme 3**: Colorful grid-based layout with playful Google Fonts.
+- 🌍 **Multi-page Routing** (Home, About, Contact) with consistent theming.
+- 🧠 **Theme Persistence** using `localStorage`.
+- 🧩 **Theme Management** via React Context API.
+- 📱 **Responsive Design** across mobile, tablet, and desktop.
+- ⚡ **Live Product Data** from `https://fakestoreapi.com/products`.
+- 🎨 **Styled using Tailwind CSS** for utility-first development.
+- 🌀 **Animated Theme Transitions**.
+- 🔐 **Secure & Compatible** with all modern browsers/devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📂 Folder Structure
 
-### `npm test`
+```bash
+src/
+├── components/        # Shared components
+├── pages/             # Home, About, Contact
+├── themes/            # Theme-specific classes and logic
+├── assets/            # Images, fonts
+├── api/               # External API services
+├── router/            # React Router config
+├── theme/             # ThemeContext (Context API)
+├── styles/            # Tailwind and custom styles
+├── App.tsx            # Main app component
+└── main.tsx           # Entry point
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/your-username/bzayna-themed-app.git
+cd bzayna-themed-app
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Install Dependencies
 
-### `npm run eject`
+```bash
+npm install
+# or
+yarn install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 3. Run the App in Dev Mode
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+App should now be live on: `http://localhost:5173`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠 Build for Production
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm run build
+npm run preview
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+## 🧪 Tech Stack
+
+- ⚛️ React + TypeScript
+- 📦 Vite for fast builds
+- 🎨 Tailwind CSS
+- 🔁 React Router
+- ☁️ Fetch API (`fakestoreapi.com`)
+- 💡 Context API
+- 🔒 Best practices for secure frontend architecture
+
+---
+
+## ⚙️ Configuration & Customization
+
+### Add New Themes
+- Extend the `ThemeContext.tsx` with a new `ThemeName`.
+- Create corresponding utility classes and structure in `themes/`.
+
+### Change Fonts
+- Fonts are loaded dynamically via Google Fonts.
+- Update `<head>` in `index.html` and corresponding `tailwind.config.ts`.
+
+### API Integration
+- Modify or add more services inside `src/api/`.
+
+---
+
+## 👨‍💻 Authors & Contact
+
+- Developed by: [Your Name]
+- Contact: [hr@hipster-inc.com](mailto:hr@hipster-inc.com)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. Feel free to use and modify.
+
+---
+
+## 🧭 Live Demo (optional)
+
+[https://www.bzayna.com/](https://www.bzayna.com/)
