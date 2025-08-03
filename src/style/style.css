@@ -1,0 +1,255 @@
+
+.availability {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+
+.underline {
+  border-bottom: 1px solid #999;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bold-text {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.designer-text {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.highlighted {
+  color: #d3ff00;
+  font-weight: 900;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 15px;
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #d3ff00;
+}
+
+.hero-img {
+  max-height: 500px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+
+/* Product Section */
+
+.product-list-section {
+  background-color: #000000;
+}
+
+.section-subtitle {
+  color: #d3ff00;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  display: inline-block;
+  border-bottom: 2px solid #d3ff00;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+.text-price{
+  color: #d3ff00;
+}
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.product-card {
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background-color: #202020 !important;
+  color: #fff;
+  margin: 0 5px;
+  font-weight: 500;
+  border-color: #202020 !important;
+  border-radius: 20px !important;
+}
+
+
+.product-card:hover {
+  border-color: rgb(212, 255, 0) !important;
+  /* transform: translateY(-5px); */
+}
+
+.product-image {
+  height: 250px;
+  object-fit: contain;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.section-subtitle {
+  font-size: 0.9rem;
+  color: #d3ff00;
+  border-bottom: 2px solid #d3ff00;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.product-image-wrapper {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+
+.product-category {
+  color: #d3ff00;
+  font-size: 0.8rem;
+  letter-spacing: 0.05rem;
+}
+
+.icon-box {
+  display: inline-block;
+  padding: 8px;
+  background: #333;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.icon-box:hover {
+  background: #d3ff00;
+  color: #000;
+}
+
+/* Intro Tabs */
+/* Marquee styling */
+.marquee-section {
+  background-color: #d3ff00;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 10px 0;
+  color: #111;
+  position: relative;
+}
+
+.marquee-track {
+  display: inline-block;
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Section styling */
+.intro-content {
+  padding: 4rem 1rem;
+}
+
+.intro-icon {
+  font-size: 2rem;
+  color: #d3ff00;
+  margin-bottom: 1rem;
+}
+
+.intro-heading {
+  width: 100%;
+  max-width: 850px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+/* Tabs styling */
+.custom-tabs .nav-link {
+  background-color: #202020;
+  color: #fff;
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-color: #202020 !important;
+  border-radius: 30px !important;
+}
+
+.custom-tabs .nav-link:hover {
+  border-color: #d3ff00 !important;
+  color: #d3ff00 !important;
+  border-radius: 30px !important;
+}
+
+.custom-tabs .nav-link.active {
+  background-color: #d3ff00 !important;
+  color: #000 !important;
+  border-color: #d3ff00 !important;
+  border-radius: 30px !important;
+}
+
+.nav-tabs {
+  border-bottom: none !important;
+  justify-content: center;
+  border-radius: 30px !important;
+}
+
+.tab-content-text {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.marquee-section {
+  background-color: #d2ff00;
+  /* Neon green */
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+  padding: 8px 0;
+}
+
+.marquee-content {
+  display: flex;
+  animation: scroll-marquee 25s linear infinite;
+}
+
+.marquee-content span {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: black;
+  padding-right: 2rem;
+  /* spacing between sets */
+  flex-shrink: 0;
+}
+
+@keyframes scroll-marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-section:hover .marquee-content {
+  animation-play-state: paused;
+}

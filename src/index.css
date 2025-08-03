@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Oleo+Script:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.theme1 {
+  background-color: white;
+  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.theme2 {
+  background-color: #000000;
+  color: white;
+  font-family: "Cinzel", serif;
+}
+
+.theme3 {
+  background-color: #14003f;
+  color: #939393;
+  font-family: "Oleo Script", system-ui;
+}
+
+
+.brand-theme1 {
+  background-color: white;
+}
+
+.brand-theme2 {
+  background-color: #000000;
+  font-family: 'Courier New', monospace;
+}
+
+.brand-theme3 {
+  background-color: #000000;
+  font-family: 'Georgia', serif;
+}
+
+.brand-theme1 .hero-section {
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.brand-theme2 .hero-section {
+  min-height: 100vh;
+  background-color: #000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.brand-theme1 .nav-link {
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.brand-theme2 .nav-link {
+  color: #f1f1f1;
+  transition: color 0.3s ease;
+  font-family: "Cinzel", serif;
+
+}
+
+.brand-theme3 .nav-link {
+  color: #d3ff00;
+  transition: color 0.3s ease;
+  font-family: "Oleo Script", system-ui;
+
+}
+
+/*  */
+.theme1 .marquee-section {
+  background-color: #000000;
+}
+
+.theme1 .marquee-content span {
+  color: #f1f1f1;
+
+}
+
+.theme1 .custom-tabs .nav-link {
+  background-color: #f1f1f1;
+  color: #222222;
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-color: #f1f1f1 !important;
+  border-radius: 30px !important;
+}
+
+.theme1 .custom-tabs .nav-link:hover {
+  border-color: #222222 !important;
+  color: #222222 !important;
+  border-radius: 30px !important;
+}
+
+.theme1 .custom-tabs .nav-link.active {
+  background-color: #222222 !important;
+  color: #ffffff !important;
+  border-color: #222222 !important;
+  border-radius: 30px !important;
+}
+
+.theme2 .custom-tabs .nav-link {
+  background-color: #222222;
+  color: #f1f1f1;
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-color: #f1f1f1 !important;
+  border-radius: 30px !important;
+}
+
+.theme2 .custom-tabs .nav-link:hover {
+  background-color: #f1f1f1;
+  border-color: #222222 !important;
+  color: #222222 !important;
+  border-radius: 30px !important;
+}
+
+.theme2 .custom-tabs .nav-link.active {
+  background-color: #d2ff00 !important;
+  color: #222222 !important;
+  border-color: #222222 !important;
+  border-radius: 30px !important;
+}
+
+.theme3 .custom-tabs .nav-link {
+  background-color: #100033;
+  color: #35b5fc;
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-color: #000000 !important;
+  border-radius: 30px !important;
+}
+
+.theme3 .custom-tabs .nav-link:hover {
+  background-color: #100033;
+  border-color: #35b5fc !important;
+  color: #35b5fc !important;
+  border-radius: 30px !important;
+}
+
+.theme3 .custom-tabs .nav-link.active {
+  background-color: #35b5fc !important;
+  color: #14003f !important;
+  border-color: #35b5fc !important;
+  border-radius: 30px !important;
+}
+
+.hero-section {
+  transition: background-color 0.4s ease, color 0.4s ease;
+  padding: 4rem 0;
+}
+
+/* Theme 1 – Default Light */
+.hero-theme1 {
+  background-color: #ffffff;
+  color: #222222;
+}
+
+/* Theme 2 – Dark */
+.hero-theme2 {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
+
+/* Theme 3 – Colorful */
+.hero-theme3 {
+  background-color: #35b5fc;
+  /* pastel yellow */
+  color: #14003f;
+}
+
+.theme3 .intro-heading {
+  color: #35b5fc;
+}
+
+.hero-theme1 .highlighted {
+  color: black;
+}
+
+.hero-theme1 .btn-outline-light {
+  border-color: #8e8e8e;
+  color: #1d1d1d;
+}
+
+.hero-theme2 .btn-outline-light {
+  border-color: #f5f5f5;
+  color: #f5f5f5;
+}
+
+.hero-theme2 .btn-outline-light:hover {
+  background-color: #f5f5f5;
+  color: #1e1e1e;
+}
+
+.hero-theme3 .btn-outline-light {
+  border-color: #14003f;
+  color: #14003f;
+}
+
+.hero-theme3 .btn-outline-light:hover {
+  background-color: #14003f;
+  color: #fceabb;
+}
+
+.hero-theme3 .underline {
+  border-bottom: 1px solid #14003f;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Optional: Style social icons if needed */
+.social-icon {
+  margin-right: 1rem;
+  color: inherit;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.hero-theme2 .intro-content {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
+
+.tabs-theme2 {
+  background-color: #1e1e1e;
+}
+
+.tabs-theme3 {
+  background-color: #14003f;
+}
+
+.theme-skill-btn.theme1 {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.theme-skill-btn.theme2 {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.theme-skill-btn.theme3 {
+  background-color: #fde39f;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.theme-skill-btn:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+/* ... (other styles) ... */
+.theme3 .skill-btn {
+  background-color: #14003f;
+  color: #fde39f;
+  border: 1px solid #fde39f;
+  font-size: larger;
+}
+
+/* Default light theme (optional fallback) */
+
+.theme1 .product-list-section {
+  background-color: #f6f6f6 !important;
+  color: #000000;
+}
+
+.theme1 .product-category {
+  display: inline;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: #000000;
+  color: white;
+}
+
+.theme3 .product-category {
+  font-size: larger;
+  color: #35b5fc;
+}
+
+.theme3 .title {
+  color: #fde39f;
+}
+
+.theme3 .text-description {
+  color: #b0a17e !important;
+}
+
+.theme1 .title {
+  color: #696969;
+}
+
+.theme1 .text-description {
+  color: #a6a6a6 !important;
+}
+
+.theme2 .text-dark {
+  font-family: 'system-ui';
+  color: #a6a6a6 !important;
+}
+
+
+.product-card {
+  background-color: #ffffff;
+  color: #000;
+  border: none !important;
+}
+
+.section-title {
+  color: #000;
+}
+
+.section-subtitle {
+  font-size: 0.9rem;
+  border-bottom: 2px solid #696969;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #696969;
+}
+
+.product-card .text-price {
+  color: #000000;
+}
+
+/* Dark theme */
+.theme2 .product-list-section {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.theme2 .product-card {
+  background-color: #ffffff;
+  color: #4a4a4a;
+  border: none !important;
+}
+
+.theme2 .section-title {
+  color: #f5f5f5;
+}
+
+.theme2 .section-subtitle {
+  font-size: 0.9rem;
+  border-bottom: 2px solid #d3ff00;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #d3ff00;
+}
+
+.theme2 .product-card .text-price {
+  color: #d3ff00;
+}
+
+/* Warm theme */
+.theme3 .product-list-section,
+.theme3 .product-card {
+  background-color: #fde39f;
+  color: #333;
+}
+
+.theme3 .product-card .text-price {
+  font-size: x-large !important;
+  color: #35b5fc;
+}
+
+/* ================================== */
+
+/* Default Light Theme */
+.card.theme1 {
+  background-color: #ffffff;
+  color: #000;
+}
+
+/* Dark Theme */
+.card.theme2 {
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+/* Warm Theme */
+.card.theme3 {
+  background-color: #14003f;
+  color: #333;
+}
+
+/* ================================== */
+.theme1 .info-cards {
+  background-color: #f6f6f6;
+  color: #000;
+}
+
+.theme2 .info-cards {
+  background-color: black !important;
+  color: #fff;
+}
+
+.theme3 .info-cards {
+  background-color: #d3ff00;
+  color: #333;
+}
+
+/* loading effect */
+
+/* In your main CSS file or component-specific CSS */
+.theme-loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.theme-loader {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
