@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
-import background from '../assets/cover.jpg'; // placeholder
-import avatar from '../assets/me.jpg'; // placeholder
+import background from '../assets/cover.jpg';
+import avatar from '../assets/me.jpg';
 
 const ProfileHeader = () => {
   return (

@@ -1,5 +1,4 @@
 import Header from './components/Header';
-import IntroTabsSection from './components/IntroTabsSection';
 import AboutMeCard from './components/AboutMeCard';
 
 function About() {
@@ -9,7 +8,6 @@ function About() {
         throw new Error('Function not implemented.');
       }} />
       <AboutMeCard/>
-      {/* <IntroTabsSection /> */}
     </>
   );
 }

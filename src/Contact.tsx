@@ -8,7 +8,6 @@ function Contact() {
         throw new Error('Function not implemented.');
       }} />
       <ProfileInfo/>
-      {/* <IntroTabsSection /> */}
     </>
   );
 }

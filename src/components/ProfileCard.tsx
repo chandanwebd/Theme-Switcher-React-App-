@@ -1,5 +1,5 @@
 import { Card } from 'react-bootstrap';
-import { useTheme } from '../theme/ThemeContext'; // adjust path if needed
+import { useTheme } from '../theme/ThemeContext'; 
 import ProfileActions from './ProfileActions';
 
 const ProfileCard = () => {

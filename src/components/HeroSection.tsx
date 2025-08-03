@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import '../style/style.css';
 import avatar from '../assets/personal-infothumb.png';
